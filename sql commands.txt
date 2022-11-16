@@ -1,0 +1,12 @@
+select * from arenas;
+select * from games;
+select * from players;
+select * from players_teams;
+select * from stats;
+select * from teams;
+
+select * from arenas  join teams on arenas.team_id = teams.id
+
+select * from players join players_teams on players.id = players_teams.players_id join teams on teams.id = players_teams.teams_id
+
+select * from stats join players on players.id = stats.id where ppg > 10

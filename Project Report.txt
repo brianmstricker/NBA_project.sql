@@ -1,0 +1,7 @@
+Question #1. I decided to go with the ORM approach, as it seems to be more practical. I attempted to do the raw SQL approach and I got it to work when showing all of my players table/showing a specific player but I could not figure out how to create or delete a player with raw SQL, so I switched to the ORM method.   
+
+Question #2. I chose to implement four basic HTTP methods for the players table which includes showing all the players (index), showing a single player (show), creating a player (create) and deleting a player (delete).  
+
+Question #3. It is difficult to think of potential endpoints that could be made outside of the basic methods. I would definitely add the four basic methods we went over for every table, as that would give access to a lot of the information I'd need, however, it might be useful/practical to add a search by name function in some of my tables rather than a search by ID. I attempted to make a function that would search the players last name instead of their ID but I could not get it to work, as it was comparing the last name I entered to the ID. There is more I'd like to do with other tables, but it took a lot of time trying to figure all of this out.  
+
+Question #4. The hardest part for me was initially trying to figure out how to implement the flask-sqlalchemy program with my already existing database and actually getting the API portion of it to work. Once I got the first API method working it was fairly easy getting the rest to work, and it was a nice challenge trying to figure the entire thing out.
